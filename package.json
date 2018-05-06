@@ -1,0 +1,39 @@
+{
+  "name": "build-release",
+  "version": "1.0.17",
+  "description": "Front-end resource packing tool",
+  "main": "index.js",
+  "bin": {
+    "release": "./bin/main.js"
+  },
+  "scripts": {
+    "test": "release js"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "chalk": "^2.4.0",
+    "commander": "^2.15.1",
+    "imagemin": "^5.3.1",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.1.0",
+    "through2": "^2.0.3",
+    "uglify-js": "^3.3.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozuxiong/release-build.git"
+  },
+  "keywords": [
+    "release",
+    "build"
+  ],
+  "author": "luozuxiong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luozuxiong/release-build/issues"
+  },
+  "homepage": "https://github.com/luozuxiong/release-build#readme",
+  "devDependencies": {
+
+  }
+}
