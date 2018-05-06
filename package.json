@@ -1,6 +1,6 @@
 {
   "name": "build-release",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Front-end resource packing tool",
   "main": "index.js",
   "bin": {
